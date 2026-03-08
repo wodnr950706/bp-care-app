@@ -26,7 +26,7 @@ import {
   Smartphone,
   Info
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   LineChart, 
   Line, 
@@ -1348,4 +1348,5 @@ const NavButton = ({ active, icon, label, onClick }: { active: boolean, icon: Re
     <span className="text-[10px] font-bold">{label}</span>
   </button>
 );
+
 
