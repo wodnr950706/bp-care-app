@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 self.addEventListener('install', (event) => {
   console.log('[Debug SW] Service Worker: Installing...');
   self.skipWaiting();
@@ -46,3 +47,24 @@ self.addEventListener('notificationclick', (event) => {
     })
   );
 });
+=======
+self.addEventListener('install', (event) => {
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(self.clients.claim());
+});
+
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  event.waitUntil(
+    clients.matchAll({ type: 'window', includeUncontrolled: true }).then((clientList) => {
+      if (clientList.length > 0) {
+        return clientList[0].focus();
+      }
+      return clients.openWindow('/');
+    })
+  );
+});
+>>>>>>> 1affeb36cdb3f06e2a3d32a04122132855594a12
