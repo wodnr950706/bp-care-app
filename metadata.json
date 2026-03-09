@@ -1,0 +1,5 @@
+{
+  "name": "혈압 케어 (Blood Pressure Care)",
+  "description": "혈압 환자를 위한 스마트 건강관리 대시보드입니다. 복약, 혈당, 식사 기록을 한눈에 관리하세요.",
+  "requestFramePermissions": []
+}
