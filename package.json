@@ -11,6 +11,11 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "@capacitor/android": "^8.2.0",
+    "@capacitor/cli": "^8.2.0",
+>>>>>>> cd40c366a9f636fbfb5d9f88880a11bf15f3d1c5
     "@capacitor/core": "^8.2.0",
     "@capacitor/local-notifications": "^8.0.2",
     "@google/genai": "^1.29.0",
@@ -35,4 +40,8 @@
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cd40c366a9f636fbfb5d9f88880a11bf15f3d1c5

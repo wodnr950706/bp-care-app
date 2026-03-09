@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BPcare</string>
+    <string name="title_activity_main">BPcare</string>
+    <string name="package_name">com.chocoham.bpcare</string>
+    <string name="custom_url_scheme">com.chocoham.bpcare</string>
+</resources>
